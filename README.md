@@ -12,8 +12,7 @@ I was tasked with creating a command line application that will dynamically gene
 ## Usage:
 Open the terminal. When you type in index.js, you will be prompted with a series of questions that will then generate a README file in the src folder. See demo below.
 
-![Weather Dashboard](https://user-images.githubusercontent.com/86627336/137847726-4a989139-f491-454d-80f9-e5211c72ecc2.gif)
-
+https://user-images.githubusercontent.com/86627336/138975868-85e91810-f490-4ccf-bb13-2d0e75a7cca7.mp4
 
 ## Contributing:
 Feel free to fork project and reach out.

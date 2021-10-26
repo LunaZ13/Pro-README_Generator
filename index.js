@@ -9,7 +9,7 @@ const questions = [
         name: 'name',
         message: 'What is the name of your project?',
         validate: nameInput => {
-            if (nameInput) {
+            if (nameInput) {             
                 return true;
             } else {
                 console.log('Please enter your Project name!');

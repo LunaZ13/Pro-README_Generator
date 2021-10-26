@@ -13,11 +13,11 @@
    - [Questions](#questions)
 
   ## Description:
-  professional README file. The user is prompted with questions about their project and a README.MD file is generated with the users input.
+  I was tasked with creating a command line application that will dynamically generate a professional README file. The user is prompted with questions about their project and a README.MD file is generated with the users input.
 
   ## Installation:
   Follow the steps below:
-  clone respository, install node.js, install inquirer
+  Clone repository, install node.js, npm install inquirer
 
   ## Usage:
   Open the terminal. When you type in index.js, you will be prompted with a series of questions that will then generate a README file in the src folder.
@@ -27,13 +27,13 @@
   MIT
 
   ## Contribution:
-  feel free to fork project.
+  undefined
 
   ## Test:
-  no test for this project.
+  No test for this project.
 
   ### Questions:
   If you have any questions, reach out to me at:
-    - Github: [lunaz13] (https://github.com/lunaz13)
+    - Github: [LunaZ13] (https://github.com/LunaZ13)
     - Email: inmar.luna@gmail.com
 

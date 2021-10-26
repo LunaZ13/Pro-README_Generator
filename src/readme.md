@@ -27,13 +27,13 @@
   MIT
 
   ## Contribution:
-  undefined
+  Feel free to fork project.
 
   ## Test:
-  No test for this project.
+  No test for this project
 
   ### Questions:
   If you have any questions, reach out to me at:
-    - Github: [LunaZ13] (https://github.com/LunaZ13)
+    - Github: [Lunaz13] (https://github.com/Lunaz13)
     - Email: inmar.luna@gmail.com
 

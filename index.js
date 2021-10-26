@@ -72,7 +72,7 @@ const questions = [
     },
     {
         type: 'confirm',
-        name: 'confirmContribution',
+        name: 'contribution',
         message: 'Would you like people to contribute to this project?',
         default: true
        
@@ -131,13 +131,9 @@ const questions = [
 ];
 
 
-// both of these inside the .then() of your inqueire!
-// var fakestr = generateMarkdown(answers)
-// writeToFile('readme.md', fakestr)
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('readme.md', generateMarkdown, err => {
+    fs.writeFile('./src/readme.md', data, err => {
         if (err) throw err;
 
         console.log('README file generated!')
@@ -149,7 +145,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function(data) {
         console.log(data)
-        writeToFile('readme.md', generateMarkdown)
+        writeToFile('readme.md', generateMarkdown(data))
     });
 }
 

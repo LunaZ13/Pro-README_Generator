@@ -12,7 +12,7 @@ I was tasked with creating a command line application that will dynamically gene
 ## Usage:
 Open the terminal. When you type in index.js, you will be prompted with a series of questions that will then generate a README file in the src folder. See demo below.
 
-https://user-images.githubusercontent.com/86627336/138975868-85e91810-f490-4ccf-bb13-2d0e75a7cca7.mp4
+https://user-images.githubusercontent.com/86627336/138976440-d2ad8094-58fb-4dab-b579-4287b2bb152c.mp4
 
 ## Contributing:
 Feel free to fork project and reach out.

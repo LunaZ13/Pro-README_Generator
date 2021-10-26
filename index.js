@@ -60,7 +60,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Choose a license for your project (Required)',
-        choices: ['MIT', 'Apache 2.0', 'ISC', 'Mozilla', 'GNU GPL v2'],
+        choices: ['MIT', 'Apache 2.0', 'ISC', 'Mozilla', 'GNU GPL v2', 'None'],
         validate: licenseInput => {
             if (licenseInput) {
                 return true;
@@ -72,10 +72,8 @@ const questions = [
     },
     {
         type: 'confirm',
-        name: 'contribution',
-        message: 'Would you like people to contribute to this project?',
-        default: true
-       
+        name: 'confirmContribution',
+        message: 'Would you like people to contribute to this project?', 
     },
     {
         type: 'input',
@@ -118,7 +116,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'please provide your email address. (Required)',
+        message: 'Please provide your email address. (Required)',
         validate: emailInput => {
             if (emailInput) {
                 return true;
